@@ -10,7 +10,7 @@ public class AndroidToDoList extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         TextView tv = new TextView(this);
-        tv.setText("To Do List!!");
+        tv.setText("To Do List v.2!!");
         setContentView(tv);
     }
 }
